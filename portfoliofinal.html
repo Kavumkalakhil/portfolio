@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9b4df02f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+        <div class="header-text">
+            <p>webdeveloper</p>
+            <h1>Hi, I'am<span> Akhil</span><br>from Kerala</h1>   
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/akhil-ka-/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Kavumkalakhil" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/__a_khil_k_a/-profile" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+   </div>
+   <!--------------------------about------------>
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me </h1>
+                <p>As a third-year Computer Science student at SJCET, I am passionate about web development, data analysis, and UI/UX design. I strive to create user-friendly and data-driven solutions while continuously learning and improving my skills in these fields. My goal is to apply my knowledge to develop innovative and impactful projects..</p> 
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                    <p class="tab-links" onclick="opentab('education')">Education </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Web Design</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Analyst</span><br>Data Analyst/Scientist</li>  
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>internship at Genzee technologies</li>
+                        <li><span>2024</span><br>NASA Space Hackathon</li>
+                        <li><span>2025</span><br>web development</li>  
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-26</span><br>SJCET PALAI</li>
+                        <li><span>2020-22</span><br>SSHSS KADANAD</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+
+   </div> 
+<!------------------services--------->
+<div id="services">
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Building dynamic, efficient, and scalable websites with clean code, seamless functionality, and a focus on delivering exceptional user experiences.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Designer</h2>
+                <p>Designing intuitive, visually engaging, and user-centered interfaces that prioritize functionality and create meaningful digital experiences.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Analyst</h2>
+                <p>Transforming data into actionable insights through detailed analysis, innovative solutions, and strategic decision-making to drive business success.</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+<!-- Projects Section -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Portfolio Website</h2>
+                <p>A responsive and dynamic portfolio showcasing my skills, projects, and contact information. Built with HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/your-username/portfolio" target="_blank">View Project</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2> Game</h2>
+                <p>A classic Snake Game built using Python and Pygame with dynamic barriers and multiple levels for added challenges.</p>
+                <a href="https://github.com/your-username/snake-game" target="_blank">View Project</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>An SQL-based project for managing and analyzing data efficiently, featuring advanced queries and user-friendly reports.</p>
+                <a href="https://github.com/your-username/database-management" target="_blank">View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="https://github.com/your-username" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/your-username" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/your-username" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="akhilkavumkal23@gmail.com">
+                <i class="fa-solid fa-envelope"></i> <!-- Email Icon -->
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Akhil. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+</body>
+</html>
